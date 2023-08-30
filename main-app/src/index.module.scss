@@ -1,0 +1,51 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    .buttonHeader {
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .employee {
+      border: 1px solid green;
+      color: green;
+      &.selected {
+        color: white;
+        background-color: green;
+      }
+    }
+    .bp {
+      border: 1px solid red;
+      color: red;
+      &.selected {
+        color: white;
+        background-color: red;
+      }
+    }
+    .so {
+      border: 1px solid blue;
+      color: blue;
+      &.selected {
+        color: white;
+        background-color: blue;
+      }
+    }
+  }
+}
