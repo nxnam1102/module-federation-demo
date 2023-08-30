@@ -5,7 +5,7 @@ const pkg = require("./package.json");
 const deps = require("./package.json").dependencies;
 
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: "./src/index.ts",
   mode: "development",
   devServer: {
     port: 3003,

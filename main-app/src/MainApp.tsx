@@ -5,6 +5,7 @@ import "bp/theme";
 import BPSecond from "bp/namnx";
 import Employee from "employee/employee";
 import BP from "bp/bp";
+import SO from "so/so";
 
 // const Employee = lazy(() => import("employee/employee"));
 // const BP = lazy(() => import("bp/bp"));
@@ -77,7 +78,7 @@ function App() {
           ) : currentPage === PageType.BusinessPartner ? (
             <BP></BP>
           ) : (
-            <BPSecond></BPSecond>
+            <SO></SO>
           )}
         </div>
       </Suspense>
